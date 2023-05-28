@@ -23,44 +23,47 @@
     color: grey;
 }
 
-
-.navi ul { /*menu*/
-    list-style: none;
-    margin: 0 auto;
-    width: 1600px;
-    clear: left;
+.navi {
+    height: 50px;
 }
 
-    .navi ul li { /*menu*/
-        display: inline-block;
-        float: right;
+    .navi ul { /*menu*/
+        list-style: none;
+        margin: 0 auto;
+        width: 1600px;
+        clear: left;
     }
 
-        .navi ul li a { /*menu*/
-
-            display: block;
+        .navi ul li { /*menu*/
+            display: inline-block;
             float: right;
-            background-color: darkolivegreen;
-            color: white;
-            height: 15px;
-            width: 180px;
-            text-align: center;
-            padding: 5px 0px;
-            text-decoration: none;
         }
 
-        .navi ul li ul { /*subNav*/
+            .navi ul li a { /*menu*/
 
-            display: none;
-            position: absolute;
-            top: 22px;
-            margin: auto;
-        }
+                display: block;
+                float: right;
+                background-color: darkolivegreen;
+                color: white;
+                height: 15px;
+                width: 180px;
+                text-align: center;
+                padding: 5px 0px;
+                text-decoration: none;
+            }
 
-        .navi ul li:hover ul { /*menu hovers*/
-            display: block;
-            width: 150px;
-        }
+            .navi ul li ul { /*subNav*/
+
+                display: none;
+                position: absolute;
+                top: 22px;
+                margin: auto;
+            }
+
+            .navi ul li:hover ul { /*menu hovers*/
+                display: block;
+                width: 150px;
+            }
 
 nav ul filter:hover ul { /*menu hover*/
     display: block;
