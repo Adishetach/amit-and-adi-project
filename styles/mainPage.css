@@ -139,32 +139,3 @@ h1 {
     height: 300px;
     width: 300px;
 }
-
-#imageOil {
-    background-image: url("../image/pic1.jpg");
-    background-size: cover;
-}
-
-#imageOlive {
-    background-image: url("../image/pic2.jpg");
-    background-size: cover;
-}
-
-#imageTree {
-    background-image: url("../image/pic3.jpg");
-    background-size: cover;
-}
-
-.down {
-    background-image: url("../image/mainPageDown.png");
-    background-position: center;
-    height: 500px;
-    background-size: 100% 500px;
-    position: relative
-}
-
-
-
-#imageTree:hover {
-    background-image: none;
-}
