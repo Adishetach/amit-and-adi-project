@@ -139,3 +139,19 @@ h1 {
     height: 300px;
     width: 300px;
 }
+
+.down {
+    background-image: url("../image/mainPageDown.png");
+    background-position: center;
+    height: 500px;
+    background-size: 100% 500px;
+    position: relative
+}
+
+/*#imageOil:hover #imageOil {
+    background-image: none;
+}*/
+
+.pic:hover .radius {
+    background-image: url("mainPageDown.png");
+}
