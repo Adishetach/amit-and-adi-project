@@ -1,10 +1,11 @@
 ﻿body {
     direction: rtl;
+    font-family: Calibri;
 }
 
 
 .headerMainPage {
-    background-image: url("../image/homePage.png");
+    background-image: url("../image/mainPageUp.jpg");
     background-position: center;
     height: 500px;
     background-size: 100% 500px;
@@ -140,9 +141,13 @@ h1 {
     width: 300px;
 }
 
+
+
 #imageOil {
     background-image: url("../image/pic1.jpg");
     background-size: cover;
+    position: relative;
+    display: inline-block;
 }
 
 #imageOlive {
@@ -153,4 +158,12 @@ h1 {
 #imageTree {
     background-image: url("../image/pic3.jpg");
     background-size: cover;
+}
+
+.buttom {
+    background-image: url("../image/mainPageButtom.png");
+    background-position: center;
+    height: 500px;
+    background-size: 100% 500px;
+    position: relative
 }
