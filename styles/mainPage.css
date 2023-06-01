@@ -27,43 +27,47 @@
     height: 50px;
 }
 
-    .navi ul { /*menu*/
-        list-style: none;
-        margin: 0 auto;
-        width: 1600px;
-        clear: left;
+#mainNav {
+    width: 100%
+}
+
+.navi ul { /*menu*/
+    list-style: none;
+    margin: 0 auto;
+    width: 1600px;
+    clear: left;
+}
+
+    .navi ul li { /*menu*/
+        display: inline-block;
+        float: right;
     }
 
-        .navi ul li { /*menu*/
-            display: inline-block;
+        .navi ul li a { /*menu*/
+
+            display: block;
             float: right;
+            background-color: darkolivegreen;
+            color: white;
+            height: 15px;
+            width: 185px;
+            text-align: center;
+            padding: 5px;
+            text-decoration: none;
         }
 
-            .navi ul li a { /*menu*/
+        .navi ul li ul { /*subNav*/
 
-                display: block;
-                float: right;
-                background-color: darkolivegreen;
-                color: white;
-                height: 15px;
-                width: 180px;
-                text-align: center;
-                padding: 5px 0px;
-                text-decoration: none;
-            }
+            display: none;
+            position: absolute;
+            top: 22px;
+            margin: auto;
+        }
 
-            .navi ul li ul { /*subNav*/
-
-                display: none;
-                position: absolute;
-                top: 22px;
-                margin: auto;
-            }
-
-            .navi ul li:hover ul { /*menu hovers*/
-                display: block;
-                width: 150px;
-            }
+        .navi ul li:hover ul { /*menu hovers*/
+            display: block;
+            width: 150px;
+        }
 
 nav ul filter:hover ul { /*menu hover*/
     display: block;
@@ -104,14 +108,11 @@ nav ul filter:hover ul { /*menu hover*/
 }
 
     .ButtomNavi ul li a {
-        display: block;
         float: left;
-        background-color: darkolivegreen;
         color: white;
         height: 15px;
         width: 180px;
         text-align: center;
-        padding: 5px 0px;
         text-decoration: none;
     }
 
