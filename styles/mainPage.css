@@ -139,3 +139,18 @@ h1 {
     height: 300px;
     width: 300px;
 }
+
+#imageOil {
+    background-image: url("../image/pic1.jpg");
+    background-size: cover;
+}
+
+#imageOlive {
+    background-image: url("../image/pic2.jpg");
+    background-size: cover;
+}
+
+#imageTree {
+    background-image: url("../image/pic3.jpg");
+    background-size: cover;
+}
