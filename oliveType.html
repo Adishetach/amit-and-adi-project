@@ -2,7 +2,7 @@
 <html lang="">
 <head>
     <meta charset="utf-8" />
-    <title>page 1</title>
+    <title>OliveType</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="author" content="" />
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
 
     <link href="styles/reset.css" rel="stylesheet" />
-    <link href="styles/mainPage.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
     <link href="styles/page1.css" rel="stylesheet" />
     <!-- JS -->
     <script src="jScripts/jquery-1.12.0.min.js"></script>
@@ -23,14 +23,12 @@
 </head>
 <body onload="showSlides(1);">
     <div id="container">
-
-        
         <header>
-            <div>
+            <div class="headerMainPage">
                 <a href="index.html">
                     <img src="..\image\logo.jpeg" id="logo" alt="Website logo">
                 </a>
-                <nav class="navi" aria-label="Main-Nav">
+                <nav class="navi" id="mainNav" aria-label="Main-Nav">
                     <ul>
                         <li><a href="index.html"> דף הבית</a></li>
                         <li>
@@ -43,7 +41,7 @@
                         <li>
                             <a href="#" class="notactive"> זנים</a>
                             <ul class="TAT">
-                                <li><a href="page1.html">סוגי זיתים</a></li>
+                                <li><a href="oliveType.html">סוגי זיתים</a></li>
                                 <li><a href="#" class="notactive">סוגי שמנים</a></li>
                             </ul>
                         </li>
@@ -54,7 +52,7 @@
                                 <li><a href="#" class="notactive">שמן זית בטיפוח</a></li>
                             </ul>
                         </li>
-                        <li><a href="page2.html">תהליך ההפקה</a></li>
+                        <li><a href="process.html">תהליך ההפקה</a></li>
                         <li><a href="About.html"> אודות</a></li>
                         <li><a href="contactUs.html"> צור קשר</a></li>
                         <li><a href="siteMap.html"> מפת האתר</a></li>
@@ -62,6 +60,7 @@
 
                 </nav>
 
+                </nav>
                 <nav class="breadmenu">
                     <ol>
                         <li><a href="index.html"> דף הבית</a></li>
@@ -71,14 +70,14 @@
                 </nav>
 
 
-</header>
+        </header>
 
 
         <div>
             <div id="slideshow_container">
 
                 <!--העלאת תמונות
-        -->
+            -->
                 <div class="mySlides">
                     <div class="numbertext">1/3</div>
                     <img src="../image/pic1.jpg" style="width:100%;height:100%;" />
@@ -188,5 +187,5 @@
 
         </div>
     </div>
-</body>
+        </body>
 </html>

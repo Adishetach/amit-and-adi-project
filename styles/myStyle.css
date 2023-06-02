@@ -141,22 +141,49 @@ h1 {
     width: 300px;
 }
 
+    .radius:hover {
+        border-radius: 50%;
+        height: 320px;
+        width: 330px;
+        transition-duration: 1s;
+        transition-timing-function :ease-in-out ;
+    }
 
 
 #imageOil {
-    background-image: url("../image/pic1.jpg");
+    background-image: url("../image/pic1.jpg") ;
     background-size: cover;
     position: relative;
     display: inline-block;
 }
 
+#imageOil:hover {
+    background-image: url("../image/pic1hover.png");
+    background-size: cover;
+    position: relative;
+    display: inline-block
+    
+}
+
 #imageOlive {
     background-image: url("../image/pic2.jpg");
     background-size: cover;
+    
+}
+
+#imageOlive:hover {
+    background-image: url("../image/pic2hover.png");
+    background-size: cover;
+    
 }
 
 #imageTree {
     background-image: url("../image/pic3.jpg");
+    background-size: cover;
+}
+
+#imageTree:hover {
+    background-image: url("../image/pic3hover.png");
     background-size: cover;
 }
 
@@ -167,3 +194,4 @@ h1 {
     background-size: 100% 500px;
     position: relative
 }
+
