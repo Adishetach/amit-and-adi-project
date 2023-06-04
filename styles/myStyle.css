@@ -146,46 +146,43 @@ h1 {
         height: 320px;
         width: 330px;
         transition-duration: 1s;
-        transition-timing-function :ease-in-out ;
+        transition-timing-function: ease-in-out;
     }
 
 
 #imageOil {
-    background-image: url("../image/pic1.jpg") ;
+    background-image: url("../image/pic1.jpg");
     background-size: cover;
     position: relative;
     display: inline-block;
 }
 
-#imageOil:hover {
-    background-image: url("../image/pic1hover.png");
-    background-size: cover;
-    position: relative;
-    display: inline-block
-    
-}
+    #imageOil:hover {
+        background-image: url("../image/pic1hover.png");
+        background-size: cover;
+        position: relative;
+        display: inline-block
+    }
 
 #imageOlive {
     background-image: url("../image/pic2.jpg");
     background-size: cover;
-    
 }
 
-#imageOlive:hover {
-    background-image: url("../image/pic2hover.png");
-    background-size: cover;
-    
-}
+    #imageOlive:hover {
+        background-image: url("../image/pic2hover.png");
+        background-size: cover;
+    }
 
 #imageTree {
     background-image: url("../image/pic3.jpg");
     background-size: cover;
 }
 
-#imageTree:hover {
-    background-image: url("../image/pic3hover.png");
-    background-size: cover;
-}
+    #imageTree:hover {
+        background-image: url("../image/pic3hover.png");
+        background-size: cover;
+    }
 
 .buttom {
     background-image: url("../image/mainPageButtom.png");
@@ -195,3 +192,54 @@ h1 {
     position: relative
 }
 
+.buttomProcess {
+    background-image: url("../image/downNoPic.png");
+    background-position: center;
+    height: 500px;
+    background-size: 100% 500px;
+    position: relative
+}
+
+#process {
+    background-image: url("../image/roed.jpg");
+    background-position: center;
+    height: 1000px;
+    background-size: 100% 1000px;
+    position: relative
+}
+
+#hProcess {
+    position: static;
+}
+
+#step1 {
+    position: absolute;
+    right: 151px;
+    top: 25px;
+}
+
+#step2 {
+    position: absolute;
+    top: 195px;
+    right: 760px;
+}
+
+#step3 {
+    position: absolute;
+    top: 380px;
+    right: 282px;
+}
+
+#step4 {
+    position: absolute;
+    top: 571px;
+    right: 100px;
+    width: 407px;
+}
+
+#step5 {
+    position: absolute;
+    bottom: 63px;
+    right: 127px;
+    width: 407px;
+}
