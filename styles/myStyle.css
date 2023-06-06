@@ -3,6 +3,9 @@
     font-family: Calibri;
 }
 
+#container {
+    height: 1000px;
+}
 
 .headerMainPage {
     background-image: url("../image/mainPageUp.jpg");
@@ -201,11 +204,13 @@ h1 {
 }
 
 #process {
-    background-image: url("../image/roed.jpg");
+    background-image: url("../image/path.jpg");
     background-position: center;
     height: 1000px;
-    background-size: 100% 1000px;
-    position: relative
+    position: relative;
+    background-repeat: space;
+    background-size: 51% 1000px;
+    background-color: #F8F4DD;
 }
 
 #hProcess {
@@ -242,4 +247,13 @@ h1 {
     bottom: 63px;
     right: 127px;
     width: 407px;
+}
+
+.textNone {
+    display: block;
+}
+
+
+.section_title:hover + .textNone {
+    display: inline-block;
 }
