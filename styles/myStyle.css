@@ -219,41 +219,52 @@ h1 {
 
 #step1 {
     position: absolute;
-    right: 151px;
-    top: 25px;
+    right: 40vw;
+    top: 3vh;
 }
 
 #step2 {
     position: absolute;
-    top: 195px;
-    right: 760px;
+    top: 22vh;
+    right: 58vw;
 }
 
 #step3 {
     position: absolute;
-    top: 380px;
-    right: 282px;
+    top: 40vh;
+    right: 48vw;
+    width: 478px;
 }
 
 #step4 {
     position: absolute;
-    top: 571px;
-    right: 100px;
-    width: 407px;
+    top: 63vh;
+    right: 26vw;
 }
 
 #step5 {
     position: absolute;
-    bottom: 63px;
-    right: 127px;
+    position: absolute;
+    bottom: 19vh;
+    right: 57vw;
     width: 407px;
 }
 
 .textNone {
-    display: block;
+    display: none;
 }
 
 
 .section_title:hover + .textNone {
     display: inline-block;
+}
+
+.section_title {
+    border: 2px solid;
+    background: #9DC08B;
+    padding: 10px 20px;
+    border-radius: 100px / 50px;
+    width: 132px;
+    height: 14px;
+}
 }
