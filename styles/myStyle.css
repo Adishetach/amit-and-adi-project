@@ -223,6 +223,33 @@ h1 {
     top: 3vh;
 }
 
+.section_title:hover .textNone {
+    display: inline-block;
+}
+
+.section_title:hover {
+    border: 2px solid;
+    background: #9DC08B;
+    padding: 10px 20px;
+    border-radius: 100px / 50px;
+    width: 300px;
+    height: 55px;
+}
+
+#step3:hover.section_title {
+    border-radius: 100px / 50px;
+    width: 35vw;
+    height: 9vh;
+}
+
+#step5:hover.section_title {
+    border-radius: 100px / 50px;
+    width: 35vw;
+    height: 9vh;
+    padding: 5px;
+}
+
+
 #step2 {
     position: absolute;
     top: 22vh;
@@ -233,7 +260,6 @@ h1 {
     position: absolute;
     top: 40vh;
     right: 48vw;
-    width: 478px;
 }
 
 #step4 {
@@ -247,7 +273,6 @@ h1 {
     position: absolute;
     bottom: 19vh;
     right: 57vw;
-    width: 407px;
 }
 
 .textNone {

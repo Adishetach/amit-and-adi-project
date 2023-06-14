@@ -84,3 +84,47 @@
     .demo:hover {
         opacity: 1;
     }
+
+.typeOlive {
+    width: 15vw;
+    background-color: #ECECE2;
+    margin: auto;
+    height: 30vh;
+    text-align: center;
+    margin-top: 7vh;
+}
+
+.present {
+    padding-top: 25px;
+}
+
+.oliveIcon {
+    width: 50px;
+    padding-top: 14px;
+}
+
+.lernMore {
+    border-radius: 50%;
+    border: 2px solid;
+    position: relative;
+    top: 5vh;
+    width: 10vw;
+    margin: auto;
+    height: 3vh;
+    padding-top: 11px;
+    background-color: #88944B;
+}
+
+
+
+.hid {
+    display: none
+}
+
+.lernMore:hover + .hid {
+    display: block;
+}
+
+.lernMore:hover + .present {
+    display: none;
+}
