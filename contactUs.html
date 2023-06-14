@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="">
 <head>
     <meta charset="utf-8" />
@@ -22,7 +23,7 @@
 <link rel="icon" href="..\image\Olive.jpg" />
 <body>
 
-    <div id="container">
+    <div id="containerform">
         <header>
             <div class="headerMainPage">
                 <a href="index.html">
@@ -68,87 +69,125 @@
                 </nav>
 
         </header>
+
+        <section class="contact">
+            <div class="contact">
+                <h2>צור איתנו קשר</h2>
+                <p>תרצו לדעת עוד על עולם השמן זית? השאירו פרטים ונשוב אליכם בהקדם!</p>
+            </div>
+            <div class="FormContainer">
+                <div class="contactInfo">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </div>
+                        <div class="text">
+                            <h4>כתובת מייל</h4>
+                            <p>Oili@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                        <div class="text">
+                            <h4>מספר טלפון </h4>
+                            <p>052-890-289</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ContactForm">
+                    <form>
+                        <div class="inputBox">
+                            <h4> הזן\י שם פרטי ושם משפחה</h4>
+                            <span>
+                                <label for="First Name">
+                                    <input type="text" id="firstname" required placeholder="הקלד\י שם פרטי ושם משפחה" />
+                                </label>
+                            </span>
+                        </div>
+                        <div class="inputBox">
+                            <h4> בחר\י מגדר</h4>
+                            <span>
+                                <label for="man">
+                                    <input type="radio" id="male" name="gender" /> גבר
+                                </label>
+                                <label for="Women">
+                                    <input type="radio" id="women" name="gender" /> אישה
+                                </label>
+                                <label for="else">
+                                    <input type="radio" id="else" name="gender" /> אחר
+                                </label>
+                            </span>
+                        </div>
+                        <div class="inputBox">
+                            <h4>הכנס\י כתובת מייל תקינה</h4>
+                            <span>
+                                <label for="mail">
+                                    <input type="email" required id="emailform" />
+                                </label>
+                            </span>
+                        </div>
+                        <div class="inputBox">
+                            <h4>הכנס\י מספר נייד תקין </h4>
+                            <span>
+                                <label for="phone number">
+                                    <input type="tel" required id="phonenum" />
+                                </label>
+                            </span>
+                        </div>
+                        <div class="inputBox">
+                            <h4>בחר את נושא הפניה שלך </h4>
+                            <span>
+                                <label for="selectSubject">
+                                    <select id="Subjects">
+                                        <option value="1" selected>שאלות על סוגי זיתים</option>
+                                        <option value="2">שאלות על תהליך ההפקה</option>
+                                        <option value="3">שאלות על מוצרי טיפוח</option>
+                                        <option value="4">שאלות כלליות</option>
+                                        <option value="5">אחר</option>
+                                    </select>
+                                </label>
+                            </span>
+                        </div>
+                        <div class="inputBox">
+                            <h4>רשום\י את תוכן הודעתך כאן </h4>
+                            <span>
+                                <label for="text message">
+                                    <textarea placeholder="מה תרצה\י לכתוב?" id="textareaform"> </textarea>
+                                </label>
+                            </span>
+                        </div>
+                        <div class="inputBox">
+                            <label for="agree">
+
+                                <input type="checkbox" id="agree" checked /> <span>אני מסכימ\ה לקבל דיוור במייל</span>
+                            </label>
+                        </div>
+                        <div class="inputBox">
+                            <span>
+                                <label for="send form">
+                                    <input type="submit" id="sent" value="שלח\י את הטופס" />
+                                </label>
+                            </span>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
     </div>
+    </section>
 
-    <span>
-
-        <h1>צור קשר</h1>
-        <h2>מעוניינים לשמוע עוד על שמן הזית? מלאו את הפרטים ונחזור אליכם בהקדם! </h2>
-    </span>
-    <br />
-    <br />
-    <form>
-
-        <label for="First Name">
-            הכנס את שמך
-            <input type="text" id="firstname" required placeholder="הקלד שם פרטי ושם משפחה" />
-        </label>
-        <br />
-        <br />
-        בחר את המין שלך
-        <br />
-        <label for="man">
-            <input type="radio" id="male" name="gender" /> גבר
-        </label>
-        <br />
-        <br />
-        <label for="Women">
-            <input type="radio" id="women" name="gender" /> אישה
-        </label>
-        <br />
-        <br />
-        <label for="else">
-            <input type="radio" id="else" name="gender" /> אחר
-        </label>
-        <br />
-        <br />
-        <label for="mail">
-            הכנס\י כתובת מייל תקינה
-            <br />
-            <input type="email" required />
-        </label>
-        <br />
-        <br />
-        <label for="selectSubject">
-            בחר את נושא הפניה שלך
-            <br />
-            <select id="Subjects">
-                <option value="1" selected>שאלות על סוגי זיתים</option>
-                <option value="2">שאלות על תהליך ההפקה</option>
-                <option value="3">שאלות על מוצרי טיפוח</option>
-                <option value="4">שאלות כלליות</option>
-                <option value="5">אחר</option>
-            </select>
-        </label>
-        <br />
-        <br />
-        <label for="text">
-            רשום את תוכן הודעתך כאן
-            <br />
-            <textarea> </textarea>
-        </label>
-        <br />
-        <br />
-        <label for="agree">
-            <input type="checkbox" id="agree" checked /> אני מסכימ\ה לקבל דיוור במייל.
-        </label>
-        <br />
-        <label for="send">
-            <input type="submit" id="sent" value="שלח\י את הטופס" />
-        </label>
-
-
-    </form>
-
-    <div>
-        <footer>
-            <nav class="ButtomNavi">
-                <ul>
-                    <li><a href="contactUs.html"> צור קשר</a></li>
-                    <li><a href="About.html"> אודות</a></li>
-                </ul>
-            </nav>
-        </footer>
+    <footer>
+        <nav class="ButtomNavi">
+            <ul>
+                <li><a href="contactUs.html"> צור קשר</a></li>
+                <li><a href="About.html"> אודות</a></li>
+            </ul>
+        </nav>
+    </footer>
     </div>
 </body>
 </html>
+
