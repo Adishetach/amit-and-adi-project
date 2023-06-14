@@ -32,3 +32,26 @@ function showSlides(n) {
 
 }
 
+function displayHiddenText(oliveType) {
+    document.getElementById('typeOliveOpen_' + oliveType).className = "typeOlive open";
+    document.getElementById('learnMore_' + oliveType).style.display = "none"
+    document.getElementById('hideLearnMore_' + oliveType).style.display = "block"
+    setTimeout(function () {
+        document.getElementById('hiddenText_' + oliveType).style.display = "block";
+    }, 250);
+}
+
+
+function hideHiddenText(oliveType) {
+    document.getElementById('typeOliveOpen_' + oliveType).className = "typeOlive";
+    document.getElementById('hiddenText_' + oliveType).style.display = "none";
+    document.getElementById('learnMore_' + oliveType).style.display = "block"
+    document.getElementById('hideLearnMore_' + oliveType).style.display = "none"
+}
+
+
+
+
+
+
+

@@ -86,13 +86,24 @@
     }
 
 .typeOlive {
-    width: 15vw;
+    width: 17vw;
     background-color: #ECECE2;
     margin: auto;
-    height: 30vh;
     text-align: center;
     margin-top: 7vh;
+    margin-bottom: 7vh;
+    padding: 1vw;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: height 0.3s;
+    height: 16.5vh;
 }
+
+    .typeOlive.open {
+        height: 40vh
+    }
+
+
 
 .present {
     padding-top: 25px;
@@ -103,28 +114,48 @@
     padding-top: 14px;
 }
 
-.lernMore {
-    border-radius: 50%;
-    border: 2px solid;
-    position: relative;
-    top: 5vh;
-    width: 10vw;
-    margin: auto;
-    height: 3vh;
-    padding-top: 11px;
-    background-color: #88944B;
+
+.olivesCards {
+    display: flex;
 }
 
-
-
-.hid {
+.hiddenText {
     display: none
 }
 
-.lernMore:hover + .hid {
-    display: block;
+
+
+.toggleLearnMore_button {
+    position: relative;
+    margin: auto;
+    height: 3vh;
+    background-color: darkolivegreen;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    font-family: "Amazon Ember",sans-serif;
+    font-size: 13px;
+    line-height: 29px;
+    padding: 0 10px 0 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 100px;
 }
 
-.lernMore:hover + .present {
-    display: none;
-}
+    .toggleLearnMore_button:hover {
+        background-color: #f7fafa;
+    }
+
+    .toggleLearnMore_button:focus {
+        border-color: #008296;
+        box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+        outline: 0;
+    }

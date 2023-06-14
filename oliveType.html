@@ -143,28 +143,141 @@
 
             <div id="info">
                 <h1>סוגי זיתים</h1>
-                <section id="souri" class="typeOlive">
-                    <h2 class="titletypeOlive">סורי Souri</h2>
-                    <img class="oliveIcon" src="../image/oliveIcon.png" style="width:50px"/>
-                    <p class="present"></p>
-                    מקור הזן: צור, לבנון.
-                    הזן הנפוץ ביותר בישראל. 
-                    <p class="lernMore">
-                        קרא עוד 
-                    </p>
+                <div class="olivesCards">
 
-                    <p class="hid">
-                        עיקר גידולו במגזר הערבי באזור הגליל בכרמי בעל.
-                        עץ בגודל בינוני, כושר השתרשות נמוך- בינוני.
-                        כניסה לפוריות בינונית, יבולים בינוניים וסירוגיים.
-                        הפרי בינוני בגודלו. פרותיו משמשים לכבושים בשיטות שונות.
-                        רגישות גבוהה לעין הטווס, רגישות בינונית לזבוב הזית, רגיש למחלת הדוררת. עמיד למחצה ליובש, קור ומליחות.
-                        השמן עשיר בארומה פירותית ירוקה בעל רמת חריפות ומרירות גבוהה יחסית. עשיר בחומצה אולאית ובנוגדי חמצון (פוליפנולים). שמן יציב השומר על הארומה לאורך זמן רב יחסית.
-                    </p>
+                    <section id="typeOliveOpen_Souri" class="typeOlive">
+                        <h2 class="titletypeOlive">סורי Souri</h2>
+                        <img class="oliveIcon" src="../image/oliveIcon.png" style="width:50px" />
+                        <p class="present"></p>
+                        מקור הזן: צור, לבנון.
+                        הזן הנפוץ ביותר בישראל.
+
+                        <p class="hiddenText" id="hiddenText_Souri">
+                            עיקר גידולו במגזר הערבי באזור הגליל בכרמי בעל.
+                            עץ בגודל בינוני, כושר השתרשות נמוך- בינוני.
+                            כניסה לפוריות בינונית, יבולים בינוניים וסירוגיים.
+                            הפרי בינוני בגודלו. פרותיו משמשים לכבושים בשיטות שונות.
+                            רגישות גבוהה לעין הטווס, רגישות בינונית לזבוב הזית, רגיש למחלת הדוררת. עמיד למחצה ליובש, קור ומליחות.
+                            השמן עשיר בארומה פירותית ירוקה בעל רמת חריפות ומרירות גבוהה יחסית. עשיר בחומצה אולאית ובנוגדי חמצון (פוליפנולים). שמן יציב השומר על הארומה לאורך זמן רב יחסית.
+                        </p>
+
+                        <p class="toggleLearnMore_button" id="learnMore_Souri" onclick="displayHiddenText('Souri')">
+                            קרא עוד
+                        </p>
+                        <p class="toggleLearnMore_button hiddenText" id="hideLearnMore_Souri" onclick="hideHiddenText('Souri')">
+                            הסתר
+                        </p>
+
 
 
                     </section>
-    <!--<section id="Nabali Mohassan">
+                    <section id="typeOliveOpen_test" class="typeOlive">
+                        <h2 class="titletypeOlive">test test</h2>
+                        <img class="oliveIcon" src="../image/oliveIcon.png" style="width:50px" />
+                        <p class="present"></p>
+                        מקור הזן: צור, לבנון.
+                        הזן הנפוץ ביותר בישראל.
+
+                        <p class="hiddenText" id="hiddenText_test">
+                            עיקר גידולו במגזר הערבי באזור הגליל בכרמי בעל.
+                            עץ בגודל בינוני, כושר השתרשות נמוך- בינוני.
+                            כניסה לפוריות בינונית, יבולים בינוניים וסירוגיים.
+                            הפרי בינוני בגודלו. פרותיו משמשים לכבושים בשיטות שונות.
+                            רגישות גבוהה לעין הטווס, רגישות בינונית לזבוב הזית, רגיש למחלת הדוררת. עמיד למחצה ליובש, קור ומליחות.
+                            השמן עשיר בארומה פירותית ירוקה בעל רמת חריפות ומרירות גבוהה יחסית. עשיר בחומצה אולאית ובנוגדי חמצון (פוליפנולים). שמן יציב השומר על הארומה לאורך זמן רב יחסית.
+                        </p>
+
+                        <p class="toggleLearnMore_button" id="learnMore_test" onclick="displayHiddenText('test')">
+                            קרא עוד
+                        </p>
+                        <p class="toggleLearnMore_button hiddenText" id="hideLearnMore_test" onclick="hideHiddenText('test')">
+                            הסתר
+                        </p>
+
+
+
+                    </section>
+                    <section id="souri" class="typeOlive">
+                        <h2 class="titletypeOlive">סורי Souri</h2>
+                        <img class="oliveIcon" src="../image/oliveIcon.png" style="width:50px" />
+                        <p class="present"></p>
+                        מקור הזן: צור, לבנון.
+                        הזן הנפוץ ביותר בישראל.
+
+                        <p class="hiddenText" id="hiddenText_Souri">
+                            עיקר גידולו במגזר הערבי באזור הגליל בכרמי בעל.
+                            עץ בגודל בינוני, כושר השתרשות נמוך- בינוני.
+                            כניסה לפוריות בינונית, יבולים בינוניים וסירוגיים.
+                            הפרי בינוני בגודלו. פרותיו משמשים לכבושים בשיטות שונות.
+                            רגישות גבוהה לעין הטווס, רגישות בינונית לזבוב הזית, רגיש למחלת הדוררת. עמיד למחצה ליובש, קור ומליחות.
+                            השמן עשיר בארומה פירותית ירוקה בעל רמת חריפות ומרירות גבוהה יחסית. עשיר בחומצה אולאית ובנוגדי חמצון (פוליפנולים). שמן יציב השומר על הארומה לאורך זמן רב יחסית.
+                        </p>
+
+                        <p class="toggleLearnMore_button" id="learnMore_Souri" onclick="displayHiddenText('Souri')">
+                            קרא עוד
+                        </p>
+                        <p class="toggleLearnMore_button hiddenText" id="hideLearnMore_Souri" onclick="hideHiddenText('Souri')">
+                            הסתר
+                        </p>
+
+
+
+                    </section>
+                    <section id="souri" class="typeOlive">
+                        <h2 class="titletypeOlive">סורי Souri</h2>
+                        <img class="oliveIcon" src="../image/oliveIcon.png" style="width:50px" />
+                        <p class="present"></p>
+                        מקור הזן: צור, לבנון.
+                        הזן הנפוץ ביותר בישראל.
+
+                        <p class="hiddenText" id="hiddenText_Souri">
+                            עיקר גידולו במגזר הערבי באזור הגליל בכרמי בעל.
+                            עץ בגודל בינוני, כושר השתרשות נמוך- בינוני.
+                            כניסה לפוריות בינונית, יבולים בינוניים וסירוגיים.
+                            הפרי בינוני בגודלו. פרותיו משמשים לכבושים בשיטות שונות.
+                            רגישות גבוהה לעין הטווס, רגישות בינונית לזבוב הזית, רגיש למחלת הדוררת. עמיד למחצה ליובש, קור ומליחות.
+                            השמן עשיר בארומה פירותית ירוקה בעל רמת חריפות ומרירות גבוהה יחסית. עשיר בחומצה אולאית ובנוגדי חמצון (פוליפנולים). שמן יציב השומר על הארומה לאורך זמן רב יחסית.
+                        </p>
+
+                        <p class="toggleLearnMore_button" id="learnMore_Souri" onclick="displayHiddenText('Souri')">
+                            קרא עוד
+                        </p>
+                        <p class="toggleLearnMore_button hiddenText" id="hideLearnMore_Souri" onclick="hideHiddenText('Souri')">
+                            הסתר
+                        </p>
+
+
+
+                    </section>
+                    <section id="souri" class="typeOlive">
+                        <h2 class="titletypeOlive">סורי Souri</h2>
+                        <img class="oliveIcon" src="../image/oliveIcon.png" style="width:50px" />
+                        <p class="present"></p>
+                        מקור הזן: צור, לבנון.
+                        הזן הנפוץ ביותר בישראל.
+
+                        <p class="hiddenText" id="hiddenText_Souri">
+                            עיקר גידולו במגזר הערבי באזור הגליל בכרמי בעל.
+                            עץ בגודל בינוני, כושר השתרשות נמוך- בינוני.
+                            כניסה לפוריות בינונית, יבולים בינוניים וסירוגיים.
+                            הפרי בינוני בגודלו. פרותיו משמשים לכבושים בשיטות שונות.
+                            רגישות גבוהה לעין הטווס, רגישות בינונית לזבוב הזית, רגיש למחלת הדוררת. עמיד למחצה ליובש, קור ומליחות.
+                            השמן עשיר בארומה פירותית ירוקה בעל רמת חריפות ומרירות גבוהה יחסית. עשיר בחומצה אולאית ובנוגדי חמצון (פוליפנולים). שמן יציב השומר על הארומה לאורך זמן רב יחסית.
+                        </p>
+
+                        <p class="toggleLearnMore_button" id="learnMore_Souri" onclick="displayHiddenText('Souri')">
+                            קרא עוד
+                        </p>
+                        <p class="toggleLearnMore_button hiddenText" id="hideLearnMore_Souri" onclick="hideHiddenText('Souri')">
+                            הסתר
+                        </p>
+
+
+
+                    </section>
+
+                </div>
+                <!--<section id="Nabali Mohassan">
         <h2> נבלי מוחסן Nabali Mohassan </h2>
         נבאלי בלדי הזן הנפוץ ביותר באזור יהודה והשומרון. לאחר מלחמת ששת הימים פותח ונטע בשטחי גידול אינטנסיביים הזן "נבאלי מוחסן" (נבאלי משופר).
         עץ בגודל בינוני, כושר השתרשות טוב. כניסה לפוריות בינונית. תכולת שמן בינונית. יבולים גבוהים וסירוגיים.
@@ -201,7 +314,7 @@
         טעמו של השמן משתנה מאוד הן כתלות במועד המסיק והן באזור הגידול. בגולן הזן נוטה להיות בעל טעם דומיננטי ומרירות בולטת ואילו בדרום הארץ נאפיין אותו  בארומה עדינה, מרירות ומידת חריפות עדינה.
         יתרון נוסף: שמן עדין ועמיד מאוד באחסון (מתאים לבלנד עם זנים ארומטיים חזקים).
     </section>-->
-</div>
+            </div>
 
             <div>
                 <footer>
