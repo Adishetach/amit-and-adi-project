@@ -1,6 +1,12 @@
-﻿body {
+﻿
+* {
+     font-family: sans-serif;
+    
+}
+
+body {
     direction: rtl;
-    font-family: Calibri;
+    font-family: sans-serif;
 }
 
 /*#container {
@@ -120,7 +126,7 @@ nav ul filter:hover ul { /*menu hover*/
         text-decoration: none;
     }
 
-h1 {
+#headerMainPage h1 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -300,19 +306,12 @@ h1 {
     position: relative;
 }
 
-#aboutText {
-    border: 2px solid green;
-    height: 100px;
-    width: 4200px;
-    background-color: darkseagreen;
-    position: relative;
-}
 
 #containerform {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Calibri;
+    font-family: sans-serif;
 }
 
 .contact {
@@ -322,24 +321,30 @@ h1 {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: olivedrab;
+    background-image: url("../image/backabout.jpg");
+    background-size: cover;
+   
 }
 
-    .contact .contact {
+    .contact .contact1 {
         max-width: 800px;
         text-align: center;
+        margin:auto;
     }
 
-        .contact .contact h2 {
-            font-size: 36px;
+        .contact .contact1 h2 {
+            font-size: 40px;
             font-weight: 500;
-            color: wheat;
+            color: darkolivegreen;
+           
+           
+           
         }
 
-        .contact .contact p {
+        .contact .contact1 p {
             font-size: 24px;
             font-weight: 300;
-            color: wheat;
+            color: darkolivegreen;
         }
 
 .FormContainer {
@@ -351,15 +356,22 @@ h1 {
 }
 
     .FormContainer .contactInfo {
-        width: 50%;
+        width: 20%;
         display: flex;
         flex-direction: column;
+        background-color: black;
+        border-radius: 360px;
+        margin-left: 100px;
+        padding: 10px;
+        box-shadow: 10px 10px darkseagreen;
     }
 
         .FormContainer .contactInfo .box {
             position: relative;
-            padding: 20px 0;
+            padding: 20px 80px;
             display: flex;
+            align-items: center;
+           
         }
 
             .FormContainer .contactInfo .box .icon {
@@ -371,28 +383,46 @@ h1 {
                 align-items: center;
                 border-radius: 50%;
                 font-size: 22px;
+                
             }
 
-            .FormContainer .contactInfo .box .text {
-                display: flex;
-                margin-left: 20px;
-                font-size: 16px;
-                color: antiquewhite;
-                flex-direction: column;
-                font-weight: 300;
-            }
+                .FormContainer .contactInfo .box .icon img { 
+
+                    width: 50%;
+                }
+
+                .FormContainer .contactInfo .box .icon #telpic {
+                    width: 50%;
+                }
+
+                    .FormContainer .contactInfo .box .text {
+                        display: flex;
+                        margin-left: 20px;
+                        font-size: 16px;
+                        color: antiquewhite;
+                        flex-direction: column;
+                        font-weight: 300;
+                    }
 
                 .FormContainer .contactInfo .box .text h4 {
                     font-weight: 500;
                     color: darkseagreen;
                 }
 
+                        .FormContainer .contactInfo .box .text p{ 
 
-.ContactForm {
-    width: 40%;
-    padding: 40px;
-    background: darkseagreen;
-}
+                            padding: 6px; 
+                            text-align: left;
+                        }
+
+
+                        .ContactForm {
+                            width: 40%;
+                            padding: 40px;
+                            background: darkseagreen;
+                            border-radius: 15px;
+                            box-shadow: 10px 10px black;
+                        }
 
     .ContactForm h4 {
         font-size: 20px;
@@ -437,3 +467,56 @@ h1 {
                 cursor: pointer;
                 padding: 10px;
                 font-size: 15px;
+                
+
+         
+             }
+
+
+
+
+#picsabout {
+    margin-top: 50px; 
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+}
+#picsabout img {
+    border-radius: 15px;
+    height: 100%; 
+    
+    
+}
+
+
+    #aboutText {
+        padding: 10px;
+        margin: auto;
+        margin-top: 40px;
+        border: 2px solid green;
+        height: 100px;
+        width: 900px;
+        background-color: darkseagreen;
+        position: relative;
+        font-size: 20pt;
+        font-family: system-ui, sans-serif;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+#US h1 {
+    position: relative;
+    right: 800px;
+    font-family: system-ui, font-family: sans-serif;
+   font-size: 40pt;
+    color: olive;
+}
+
+.background {
+    background-image: url("../image/backabout.jpg");
+    background-size: cover;
+}
