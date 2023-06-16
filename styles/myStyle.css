@@ -122,18 +122,16 @@ nav ul filter:hover ul { /*menu hover*/
 
 h1 {
     position: absolute;
-    top: 20%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-    
-
-    .images {
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: 15px;
-    }
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
 
 .pic {
     float: left;
@@ -277,7 +275,6 @@ h1 {
     right: 57vw;
 }
 
-<<<<<<< Updated upstream
 .textNone {
     display: none;
 }
@@ -301,13 +298,6 @@ h1 {
     width: 320px;
     height: 300px;
     position: relative;
-=======
-.Aboutpics {
-    display: inline-block;
-    width: 320px; 
-    height: 300px; 
-    position: relative; 
->>>>>>> Stashed changes
 }
 
 #aboutText {
@@ -318,20 +308,11 @@ h1 {
     position: relative;
 }
 
-<<<<<<< Updated upstream
 #containerform {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Calibri;
-=======
-#containerform{
-    margin:0;
-    padding:0;
-    box-sizing: border-box ; 
-    font-family:Calibri; 
-
->>>>>>> Stashed changes
 }
 
 .contact {
@@ -344,7 +325,6 @@ h1 {
     background-color: olivedrab;
 }
 
-<<<<<<< Updated upstream
     .contact .contact {
         max-width: 800px;
         text-align: center;
@@ -354,20 +334,6 @@ h1 {
             font-size: 36px;
             font-weight: 500;
             color: wheat;
-=======
-    .contact .contact{
-
-        max-width: 800px; 
-        text-align: center; 
-    }
-
-        .contact .contact h2 {
-
-            font-size: 36px; 
-            font-weight: 500; 
-            color: wheat;
-
->>>>>>> Stashed changes
         }
 
         .contact .contact p {
@@ -376,7 +342,6 @@ h1 {
             color: wheat;
         }
 
-<<<<<<< Updated upstream
 .FormContainer {
     width: 100%;
     display: flex;
@@ -421,65 +386,12 @@ h1 {
                     font-weight: 500;
                     color: darkseagreen;
                 }
-=======
-.FormContainer{ 
-    width: 100%; 
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    margin-top: 30px; 
-
-}
-    .FormContainer .contactInfo {
-        width: 50%;
-        display: flex; 
-        flex-direction: column; 
-    }
-
-    .FormContainer .contactInfo .box { 
-
-        position: relative;
-        padding: 20px 0; 
-        display: flex;
-
-    }
-
-        .FormContainer .contactInfo .box .icon {
-            min-width: 60px;
-            height: 60px;
-            background: darkseagreen;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 50%;
-            font-size: 22px;
-        }
-
-        .FormContainer .contactInfo .box .text {
-
-            display: flex;
-            margin-left: 20px; 
-            font-size: 16px; 
-            color: antiquewhite; 
-            flex-direction: column; 
-            font-weight: 300; 
-        }
-
-            .FormContainer .contactInfo .box .text h4 {
-                font-weight: 500;
-                color: darkseagreen;
-            }
->>>>>>> Stashed changes
 
 
 .ContactForm {
     width: 40%;
     padding: 40px;
-<<<<<<< Updated upstream
     background: darkseagreen;
-=======
-    background: darkseagreen; 
->>>>>>> Stashed changes
 }
 
     .ContactForm h4 {
@@ -489,36 +401,12 @@ h1 {
     }
 
     .ContactForm .inputBox {
-<<<<<<< Updated upstream
         position: relative;
         width: 100%;
         margin-top: 10px;
     }
 
         .ContactForm .inputBox input {
-=======
-        position: relative; 
-        width: 100%;
-        margin-top: 10px; 
-
-    }
-
-    .ContactForm .inputBox input{ 
-
-        width: 100%;
-        padding: 5px 0; 
-        font-size: 16px; 
-        margin: 10px 0 ; 
-        border: none;
-        border-bottom: 2px solid white; 
-        outline: none; 
-        border-radius: 35px; 
-
-
-    }
-
-        .ContactForm .inputBox input textarea {
->>>>>>> Stashed changes
             width: 100%;
             padding: 5px 0;
             font-size: 16px;
@@ -527,7 +415,6 @@ h1 {
             border-bottom: 2px solid white;
             outline: none;
             border-radius: 35px;
-<<<<<<< Updated upstream
         }
 
             .ContactForm .inputBox input textarea {
@@ -550,18 +437,3 @@ h1 {
                 cursor: pointer;
                 padding: 10px;
                 font-size: 15px;
-=======
-            resize:none; 
-
-        }
-
-        .ContactForm .inputBox input[type="submit"] {
-            width: 200px;
-            background: wheat;
-            color: olive;
-            border: none;
-            cursor: pointer;
-            padding: 10px;
-            font-size: 15px;
-        } 
->>>>>>> Stashed changes
