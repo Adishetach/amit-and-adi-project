@@ -38,7 +38,12 @@ function displayHiddenText(oliveType) {
     document.getElementById('hideLearnMore_' + oliveType).style.display = "block"
     setTimeout(function () {
         document.getElementById('hiddenText_' + oliveType).style.display = "block";
+        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })
+
     }, 250);
+
+
+
 }
 
 

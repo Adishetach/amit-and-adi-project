@@ -1,12 +1,10 @@
 ﻿
 * {
-     font-family: sans-serif;
-    
+    font-family: system-ui;
 }
 
 body {
     direction: rtl;
-    font-family: sans-serif;
 }
 
 /*#container {
@@ -311,7 +309,6 @@ nav ul filter:hover ul { /*menu hover*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
 }
 
 .contact {
@@ -323,22 +320,18 @@ nav ul filter:hover ul { /*menu hover*/
     flex-direction: column;
     background-image: url("../image/backabout.jpg");
     background-size: cover;
-   
 }
 
     .contact .contact1 {
         max-width: 800px;
         text-align: center;
-        margin:auto;
+        margin: auto;
     }
 
         .contact .contact1 h2 {
             font-size: 40px;
             font-weight: 500;
             color: darkolivegreen;
-           
-           
-           
         }
 
         .contact .contact1 p {
@@ -371,7 +364,6 @@ nav ul filter:hover ul { /*menu hover*/
             padding: 20px 80px;
             display: flex;
             align-items: center;
-           
         }
 
             .FormContainer .contactInfo .box .icon {
@@ -383,11 +375,9 @@ nav ul filter:hover ul { /*menu hover*/
                 align-items: center;
                 border-radius: 50%;
                 font-size: 22px;
-                
             }
 
-                .FormContainer .contactInfo .box .icon img { 
-
+                .FormContainer .contactInfo .box .icon img {
                     width: 50%;
                 }
 
@@ -395,34 +385,34 @@ nav ul filter:hover ul { /*menu hover*/
                     width: 50%;
                 }
 
-                    .FormContainer .contactInfo .box .text {
-                        display: flex;
-                        margin-left: 20px;
-                        font-size: 16px;
-                        color: antiquewhite;
-                        flex-direction: column;
-                        font-weight: 300;
-                    }
+            .FormContainer .contactInfo .box .text {
+                display: flex;
+                margin-left: 20px;
+                font-size: 16px;
+                color: antiquewhite;
+                flex-direction: column;
+                font-weight: 300;
+            }
 
                 .FormContainer .contactInfo .box .text h4 {
                     font-weight: 500;
                     color: darkseagreen;
                 }
 
-                        .FormContainer .contactInfo .box .text p{ 
+                .FormContainer .contactInfo .box .text p {
+                    text-wrap: nowrap;
+                    padding: 6px;
+                    text-align: left;
+                }
 
-                            padding: 6px; 
-                            text-align: left;
-                        }
 
-
-                        .ContactForm {
-                            width: 40%;
-                            padding: 40px;
-                            background: darkseagreen;
-                            border-radius: 15px;
-                            box-shadow: 10px 10px black;
-                        }
+.ContactForm {
+    width: 40%;
+    padding: 40px;
+    background: darkseagreen;
+    border-radius: 15px;
+    box-shadow: 10px 10px black;
+}
 
     .ContactForm h4 {
         font-size: 20px;
@@ -437,7 +427,6 @@ nav ul filter:hover ul { /*menu hover*/
     }
 
         .ContactForm .inputBox input {
-            width: 100%;
             padding: 5px 0;
             font-size: 16px;
             margin: 10px 0;
@@ -467,52 +456,46 @@ nav ul filter:hover ul { /*menu hover*/
                 cursor: pointer;
                 padding: 10px;
                 font-size: 15px;
-                
-
-         
-             }
+            }
 
 
 
 
 #picsabout {
-    margin-top: 50px; 
+    margin-top: 50px;
     display: flex;
     align-items: center;
     align-content: center;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-
-}
-#picsabout img {
-    border-radius: 15px;
-    height: 100%; 
-    
-    
 }
 
-
-    #aboutText {
-        padding: 10px;
-        margin: auto;
-        margin-top: 40px;
-        border: 2px solid green;
-        height: 100px;
-        width: 900px;
-        background-color: darkseagreen;
-        position: relative;
-        font-size: 20pt;
-        font-family: system-ui, sans-serif;
-        text-align: center;
-        border-radius: 10px;
+    #picsabout img {
+        border-radius: 15px;
+        height: 100%;
     }
+
+
+#aboutText {
+    padding: 10px;
+    margin: auto;
+    margin-top: 40px;
+    border: 2px solid green;
+    height: 100px;
+    width: 900px;
+    background-color: darkseagreen;
+    position: relative;
+    font-size: 20pt;
+    font-family: system-ui;
+    text-align: center;
+    border-radius: 10px;
+}
 
 #US h1 {
     position: relative;
-    right: 800px;
-    font-family: system-ui, font-family: sans-serif;
-   font-size: 40pt;
+    text-align: center;
+    font-size: 40pt;
     color: olive;
 }
 
