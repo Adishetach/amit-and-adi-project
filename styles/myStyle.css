@@ -1,6 +1,6 @@
 ﻿
 * {
-    font-family: system-ui;
+    font-family: system-ui !important;
 }
 
 body {
@@ -15,7 +15,7 @@ h1 {
 }
 
 #container {
-    height: 1000px;
+    height: 899px;
 }
 
 .headerMainPage {
@@ -216,12 +216,9 @@ nav ul filter:hover ul { /*menu hover*/
     position: relative;
     background-repeat: space;
     background-size: 51% 1000px;
-    background-color: #F8F4DD;
 }
 
-#hProcess {
-    position: static;
-}
+
 
 #step1 {
     position: absolute;
@@ -313,34 +310,29 @@ nav ul filter:hover ul { /*menu hover*/
     box-sizing: border-box;
 }
 
-.contact {
-    position: relative;
-    min-height: 100px;
-    padding: 50px 100px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+#containerform {
     background-image: url("../image/backabout.jpg");
     background-size: cover;
+    height: 883px;
 }
 
-    .contact .contact1 {
-        max-width: 800px;
-        text-align: center;
-        margin: auto;
+.contact .contact1 {
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+    .contact .contact1 h2 {
+        font-size: 40px;
+        font-weight: 500;
+        color: darkolivegreen;
     }
 
-        .contact .contact1 h2 {
-            font-size: 40px;
-            font-weight: 500;
-            color: darkolivegreen;
-        }
-
-        .contact .contact1 p {
-            font-size: 24px;
-            font-weight: 300;
-            color: darkolivegreen;
-        }
+    .contact .contact1 p {
+        font-size: 24px;
+        font-weight: 300;
+        color: darkolivegreen;
+    }
 
 .FormContainer {
     width: 100%;
@@ -496,10 +488,7 @@ nav ul filter:hover ul { /*menu hover*/
 
 
 
-.background {
-    background-image: url("../image/backabout.jpg");
-    background-size: cover;
-}
+
 
 
 
@@ -510,9 +499,9 @@ nav ul filter:hover ul { /*menu hover*/
     margin: auto;
 }
 
-.ButtomNavi {
+/*.ButtomNavi {
     width: 2000px;
-}
+}*/
 
 .mySlides {
     height: 400px;
@@ -669,16 +658,9 @@ nav ul filter:hover ul { /*menu hover*/
     }
 
 
-.mainSubject {
-    display: block;
-    border: 2px solid black;
-    background-color: darkseagreen;
-    width: 100px;
-    padding: 5px;
-    color: black;
-}
 
-#sitemapdiv {
+
+#siteMap {
     background-image: url("../image/backabout.jpg");
     background-size: cover;
 }
@@ -689,4 +671,57 @@ nav ul filter:hover ul { /*menu hover*/
     padding: 10px;
     font-family: poopins;
     text-align: center;
+}
+
+/*#siteMupOrderList {
+    display: flex;
+}*/
+
+.headerProcessPage {
+    background-color: #F8F6E1;
+}
+
+.containerAbout {
+    background-image: url("../image/backabout.jpg");
+    background-size: cover;
+    height: 899px;
+}
+
+.mainSubject div {
+    display: block;
+    border: 2px solid black;
+    background-color: #C4D7B2;
+    width: 100px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.mainSubject {
+    display: flex;
+    margin-top: 75px;
+}
+
+.secondSubject_title div {
+    display: block;
+    width: 100px;
+    padding: 5px;
+}
+
+.secondSubject_title {
+    display: flex;
+}
+
+.secondSubject {
+    display: block;
+    border: 2px solid black;
+    background-color: #E1ECC8;
+    width: 100px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 10px;
 }
