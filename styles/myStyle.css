@@ -268,10 +268,10 @@ video {
 
 .peopletelling {
     background-color: olive;
-    padding: 10px;
+    padding-top: 25px;
     margin: 100px;
     color: wheat;
-    height: 190px;
+    height: 151px;
     width: 550px;
     font-size: 20pt;
     border-radius: 17px;
@@ -429,16 +429,15 @@ video {
 }
 
 
+
+
 #containerform {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-#containerform {
     background-image: url("../image/backabout.jpg");
     background-size: cover;
-    height: 883px;
+    height: 892px;;
 }
 
 .contact .contact1 {
@@ -781,7 +780,7 @@ video {
     border-radius: 8px;
     box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
     box-sizing: border-box;
-    color: #0f1111;
+    color: white;
     cursor: pointer;
     font-size: 13px;
     line-height: 29px;
@@ -798,6 +797,7 @@ video {
 
     .toggleLearnMore_button:hover {
         background-color: #f7fafa;
+        color: black;
     }
 
     .toggleLearnMore_button:focus {
