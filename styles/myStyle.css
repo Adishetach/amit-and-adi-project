@@ -60,40 +60,40 @@ h1 {
     clear: left;
 }
 
-    .navi ul li {
-        /*menu*/
-        display: inline-block;
-        float: right;
-    }
+.navi ul li {
+    /*menu*/
+    display: inline-block;
+    float: right;
+}
 
-        .navi ul li a {
-            /*menu*/
+.navi ul li a {
+    /*menu*/
 
-            display: block;
-            float: right;
-            background-color: darkolivegreen;
-            color: white;
-            height: 15px;
-            width: 185px;
-            text-align: center;
-            padding: 5px;
-            text-decoration: none;
-        }
+    display: block;
+    float: right;
+    background-color: darkolivegreen;
+    color: white;
+    height: 15px;
+    width: 185px;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
 
-        .navi ul li ul {
-            /*subNav*/
+.navi ul li ul {
+    /*subNav*/
 
-            display: none;
-            position: absolute;
-            top: 22px;
-            margin: auto;
-        }
+    display: none;
+    position: absolute;
+    top: 22px;
+    margin: auto;
+}
 
-        .navi ul li:hover ul {
-            /*menu hovers*/
-            display: block;
-            width: 150px;
-        }
+.navi ul li:hover ul {
+    /*menu hovers*/
+    display: block;
+    width: 150px;
+}
 
 nav ul filter:hover ul {
     /*menu hover*/
@@ -105,14 +105,14 @@ nav ul filter:hover ul {
     display: inline-block;
 }
 
-    .breadmenu ol li:after {
-        content: " >";
-    }
+.breadmenu ol li:after {
+    content: " >";
+}
 
 
-    .breadmenu ol li:last-child:after {
-        content: "";
-    }
+.breadmenu ol li:last-child:after {
+    content: "";
+}
 
 .breadmenu a {
     color: green;
@@ -134,14 +134,14 @@ nav ul filter:hover ul {
     width: 100%;
 }
 
-    .ButtomNavi ul li a {
-        float: left;
-        color: white;
-        height: 15px;
-        width: 180px;
-        text-align: center;
-        text-decoration: none;
-    }
+.ButtomNavi ul li a {
+    float: left;
+    color: white;
+    height: 15px;
+    width: 180px;
+    text-align: center;
+    text-decoration: none;
+}
 
 
 #mainPageTitle {
@@ -180,20 +180,20 @@ video {
     width: 300px;
 }
 
-    .radius:hover {
-        border-radius: 50%;
-        height: 320px;
-        width: 330px;
-        transition-duration: 1s;
-        transition-timing-function: ease-in-out;
-    }
+.radius:hover {
+    border-radius: 50%;
+    height: 320px;
+    width: 330px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
 
-    .radius:not(:hover) {
-        height: 300px;
-        width: 300px;
-        transition-duration: 1s;
-        transition-timing-function: ease-in-out;
-    }
+.radius:not(:hover) {
+    height: 300px;
+    width: 300px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
 
 #imageOil {
     background-image: url("../image/pic1.jpg");
@@ -221,17 +221,17 @@ video {
 }
 
 
-    .pic:hover .imageOilText {
-        opacity: 1;
-    }
+.pic:hover .imageOilText {
+    opacity: 1;
+}
 
-    .pic:hover .imageOliveText {
-        opacity: 1;
-    }
+.pic:hover .imageOliveText {
+    opacity: 1;
+}
 
-    .pic:hover .imageTreeText {
-        opacity: 1;
-    }
+.pic:hover .imageTreeText {
+    opacity: 1;
+}
 
 
 
@@ -249,10 +249,10 @@ video {
     display: inline-block;
 }
 
-    #imageOlive:hover {
-        background-image: url("../image/pic2hover.jpeg");
-        background-size: cover;
-    }
+#imageOlive:hover {
+    background-image: url("../image/pic2hover.jpeg");
+    background-size: cover;
+}
 
 #imageTree {
     background-image: url("../image/pic3.jpg");
@@ -261,10 +261,10 @@ video {
     display: inline-block;
 }
 
-    #imageTree:hover {
-        background-image: url("../image/pic3hover.jpeg");
-        background-size: cover;
-    }
+#imageTree:hover {
+    background-image: url("../image/pic3hover.jpeg");
+    background-size: cover;
+}
 
 .peopletelling {
     background-color: olive;
@@ -345,74 +345,74 @@ video {
     height: 14px;
 }
 
-    .section_title:hover .textNone {
-        display: inline-block;
-    }
+.section_title:hover .textNone {
+    display: inline-block;
+}
 
-    .section_title:hover {
-        border: 2px solid;
-        background: #9DC08B;
-        padding: 20px !important;
-        border-radius: 100px / 50px;
-        width: 300px;
-        height: 55px;
-    }
+.section_title:hover {
+    border: 2px solid;
+    background: #9DC08B;
+    padding: 20px !important;
+    border-radius: 100px / 50px;
+    width: 300px;
+    height: 55px;
+}
 
-        .section_title:hover + .textNone {
-            display: inline-block;
-        }
+.section_title:hover+.textNone {
+    display: inline-block;
+}
 
 
 
 #step1 {
     position: absolute;
-    right: 40vw;
-    top: 3vh;
+    right: 700px;
+    top: 35px;
 }
 
-    #step1:hover.section_title {
-        width: 15vw;
-        height: 7.5vh;
-    }
+#step1:hover.section_title {
+    width: 15vw;
+    height: 7.5vh;
+}
 
 #step2 {
     position: absolute;
-    top: 22vh;
-    right: 58vw;
+    top: 200px;
+    right: 950px;
 }
 
 #step3 {
     position: absolute;
-    top: 40vh;
-    right: 48vw;
+    top: 370px;
+    right: 750px;
 }
 
-    #step3:hover.section_title {
-        width: 35vw;
-        height: 9vh;
-    }
+#step3:hover.section_title {
+    width: 35vw;
+    height: 9vh;
+}
 
 #step4 {
     position: absolute;
-    top: 63vh;
-    right: 26vw;
+    top: 600px;
+    right: 450px;
 }
 
-    #step4:hover.section_title {
-        width: 15vw;
-        height: 3.5vh;
-    }
+#step4:hover.section_title {
+    width: 15vw;
+    height: 3.5vh;
+}
 
 #step5 {
     position: absolute;
-    bottom: 19vh;
-    right: 57vw;
+    bottom: 190px;
+    right: 970px;
 }
 
-    #step5:hover.section_title {
-        width: 35vw;
-        height: 6.5vh;
-    }
+#step5:hover.section_title {
+    width: 35vw;
+    height: 6.5vh;
+}
 
 
 
@@ -437,7 +437,8 @@ video {
     box-sizing: border-box;
     background-image: url("../image/backabout.jpg");
     background-size: cover;
-    height: 892px;;
+    height: 892px;
+    ;
 }
 
 .contact .contact1 {
@@ -446,17 +447,17 @@ video {
     margin: auto;
 }
 
-    .contact .contact1 h2 {
-        font-size: 40px;
-        font-weight: 500;
-        color: darkolivegreen;
-    }
+.contact .contact1 h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: darkolivegreen;
+}
 
-    .contact .contact1 p {
-        font-size: 24px;
-        font-weight: 300;
-        color: darkolivegreen;
-    }
+.contact .contact1 p {
+    font-size: 24px;
+    font-weight: 300;
+    color: darkolivegreen;
+}
 
 .FormContainer {
     width: 100%;
@@ -466,62 +467,62 @@ video {
     margin-top: 30px;
 }
 
-    .FormContainer .contactInfo {
-        width: 20%;
-        display: flex;
-        flex-direction: column;
-        background-color: black;
-        border-radius: 360px;
-        margin-left: 100px;
-        padding: 10px;
-        box-shadow: 10px 10px darkseagreen;
-    }
+.FormContainer .contactInfo {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 360px;
+    margin-left: 100px;
+    padding: 10px;
+    box-shadow: 10px 10px darkseagreen;
+}
 
-        .FormContainer .contactInfo .box {
-            position: relative;
-            padding: 20px 80px;
-            display: flex;
-            align-items: center;
-        }
+.FormContainer .contactInfo .box {
+    position: relative;
+    padding: 20px 80px;
+    display: flex;
+    align-items: center;
+}
 
-            .FormContainer .contactInfo .box .icon {
-                min-width: 60px;
-                height: 60px;
-                background: darkseagreen;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                border-radius: 50%;
-                font-size: 22px;
-            }
+.FormContainer .contactInfo .box .icon {
+    min-width: 60px;
+    height: 60px;
+    background: darkseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
 
-                .FormContainer .contactInfo .box .icon img {
-                    width: 50%;
-                }
+.FormContainer .contactInfo .box .icon img {
+    width: 50%;
+}
 
-                .FormContainer .contactInfo .box .icon #telpic {
-                    width: 50%;
-                }
+.FormContainer .contactInfo .box .icon #telpic {
+    width: 50%;
+}
 
-            .FormContainer .contactInfo .box .text {
-                display: flex;
-                margin-left: 20px;
-                font-size: 16px;
-                color: antiquewhite;
-                flex-direction: column;
-                font-weight: 300;
-            }
+.FormContainer .contactInfo .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: antiquewhite;
+    flex-direction: column;
+    font-weight: 300;
+}
 
-                .FormContainer .contactInfo .box .text h4 {
-                    font-weight: 500;
-                    color: darkseagreen;
-                }
+.FormContainer .contactInfo .box .text h4 {
+    font-weight: 500;
+    color: darkseagreen;
+}
 
-                .FormContainer .contactInfo .box .text p {
-                    text-wrap: nowrap;
-                    padding: 6px;
-                    text-align: left;
-                }
+.FormContainer .contactInfo .box .text p {
+    text-wrap: nowrap;
+    padding: 6px;
+    text-align: left;
+}
 
 
 .ContactForm {
@@ -532,17 +533,17 @@ video {
     box-shadow: 10px 10px black;
 }
 
-    .ContactForm h4 {
-        font-size: 20px;
-        color: antiquewhite;
-        font-weight: 300;
-    }
+.ContactForm h4 {
+    font-size: 20px;
+    color: antiquewhite;
+    font-weight: 300;
+}
 
-    .ContactForm .inputBox {
-        position: relative;
-        width: 100%;
-        margin-top: 10px;
-    }
+.ContactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
 
 #firstname {
     width: 250px;
@@ -558,27 +559,27 @@ video {
     border-radius: 35px;
 }
 
-    .ContactForm .inputBox input textarea {
-        width: 100%;
-        padding: 5px 0;
-        font-size: 16px;
-        margin: 10px 0;
-        border: none;
-        border-bottom: 2px solid white;
-        outline: none;
-        border-radius: 35px;
-        resize: none;
-    }
+.ContactForm .inputBox input textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    border-radius: 35px;
+    resize: none;
+}
 
-    .ContactForm .inputBox input[type="submit"] {
-        width: 200px;
-        background: wheat;
-        color: olive;
-        border: none;
-        cursor: pointer;
-        padding: 10px;
-        font-size: 15px;
-    }
+.ContactForm .inputBox input[type="submit"] {
+    width: 200px;
+    background: wheat;
+    color: olive;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 15px;
+}
 
 
 #picsabout {
@@ -606,9 +607,9 @@ video {
     display: flex;
 }
 
-    .picsIcons > a {
-        margin: 5px;
-    }
+.picsIcons>a {
+    margin: 5px;
+}
 
 
 
@@ -675,10 +676,10 @@ video {
     border-radius: 3px 0 0 3px;
 }
 
-    .prev:hover,
-    .next:hover {
-        background-color: rgba(0, 0, 0, 0.8);
-    }
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
 
 .numbertext {
     color: #f2f2f2;
@@ -701,11 +702,11 @@ video {
 }
 
 
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 .column {
     margin: 5px;
@@ -719,10 +720,10 @@ video {
     opacity: 0.6;
 }
 
-    .active,
-    .demo:hover {
-        opacity: 1;
-    }
+.active,
+.demo:hover {
+    opacity: 1;
+}
 
 .typeOlive {
     width: 17vw;
@@ -744,9 +745,9 @@ video {
     align-items: center;
 }
 
-    .typeOlive.open {
-        height: 40vh
-    }
+.typeOlive.open {
+    height: 400px
+}
 
 
 
@@ -766,15 +767,15 @@ video {
 }
 
 .hiddenText {
-    display: none
+    display: none;
 }
 
 
 
 .toggleLearnMore_button {
+
     position: relative;
     margin-top: auto;
-    height: 3vh;
     background-color: darkolivegreen;
     border: 1px solid #d5d9d9;
     border-radius: 8px;
@@ -783,7 +784,7 @@ video {
     color: white;
     cursor: pointer;
     font-size: 13px;
-    line-height: 29px;
+    line-height: 20px;
     padding: 0 10px 0 11px;
     position: relative;
     text-align: center;
@@ -795,16 +796,16 @@ video {
     width: 100px;
 }
 
-    .toggleLearnMore_button:hover {
-        background-color: #f7fafa;
-        color: black;
-    }
+.toggleLearnMore_button:hover {
+    background-color: #f7fafa;
+    color: black;
+}
 
-    .toggleLearnMore_button:focus {
-        border-color: #008296;
-        box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
-        outline: 0;
-    }
+.toggleLearnMore_button:focus {
+    border-color: #008296;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    outline: 0;
+}
 
 
 
@@ -875,17 +876,17 @@ video {
     margin-top: 75px;
 }
 
-    .mainSubject div {
-        display: block;
-        border: 1.5px solid black;
-        background-color: #C4D7B2;
-        width: 100px;
-        color: black;
-        text-align: center;
-        padding: 5px;
-        border-radius: 8px;
-        margin: 10px;
-    }
+.mainSubject div {
+    display: block;
+    border: 1.5px solid black;
+    background-color: #C4D7B2;
+    width: 100px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 10px;
+}
 
 
 
@@ -894,14 +895,14 @@ video {
     justify-content: center;
 }
 
-    .secondSubject_title > div {
-        display: block;
-        width: 100px;
-        padding: 5px;
-        border: 1.5px solid black;
-        border-color: transparent;
-        margin: 10px;
-    }
+.secondSubject_title>div {
+    display: block;
+    width: 100px;
+    padding: 5px;
+    border: 1.5px solid black;
+    border-color: transparent;
+    margin: 10px;
+}
 
 
 .secondSubject {
